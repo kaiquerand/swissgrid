@@ -2,25 +2,25 @@
 
 | Options | Type | Default |
 | ----------- | ----------- | ----------- |
-| Column Number | Number | 12 |
-| Full Height | Boolean | False |
-| Full Width | Boolean | False |
-| Grid Color | String | #00000015 |
-| Grid Gap | Number | 12 |
-| Grid Horizontal | Boolean | False |
-| Grid Unity | String | px |
-| Grid Z-index | Number | -1 |
+| ColumnNumber | Number | 12 |
+| FullHeight | Boolean | False |
+| FullWidth | Boolean | False |
+| GridColor | String | #00000015 |
+| GridGap | Number | 12 |
+| GridHorizontal | Boolean | False |
+| GridUnity | String | px |
+| GridZIndex | Number | -1 |
 
 
 # Usage
 ```js
-import grid from 'grid'
+import projectGrid from 'grid'
 
 const grid = new grid({ 
-  option: x,
-  option: y
+  option: a,
+  option: b
 })
 
-grid.createGrid()
+projectGrid.createGrid()
 ```
 
