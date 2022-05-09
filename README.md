@@ -14,6 +14,7 @@
 
 # Usage
 ```js
+// The grid visibility is toggled by double clicking the body element
 import projectGrid from 'grid'
 
 const grid = new grid({ 
